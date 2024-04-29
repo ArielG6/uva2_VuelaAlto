@@ -1,50 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
-        <title>Vuela Alto - Misión, visión y Valores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Vuela Alto - Nosotros</title>
     </head>
     <body>
-        <Header>
-            <img src="img/logotipo.jpg" alt="logotipo de la empresa" width="100" height="100">
-            <h1>Vuela Alto</h1>
+        <header>
+            <div class="logoContenedor col-3">
+                <img id="logo" src="img/logoSinFondo.png" alt="logotipo de la empresa">
+                <p id="nombre">Vuela Alto</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <nav class="dropdown-content">
+                    <a class="menuLink" href="index.html">Inicio</a>
+                    <a class="menuLink" href="nosotros.html">Nosotros</a>
+                    <a class="menuLink" href="servicios.html">Servicios</a>
+                    <a class="menuLink" href="productos.html">Productos</a>
+                    <a class="menuLink" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            
+        </header>
+        <div class="fila">
+            <div class="imagenContenedor col-6">
+                <img id="imagen" src="img/nosotros1.jpg" alt="foto principal">
+            </div>
+            <div class="cuerpo col-6">
+                <div class="contenido">
+                    <p>
+                        <b>Vuela Alto</b> es una empresa líder en consultoría aeronáutica, fundada por un equipo de profesionales 
+                        con amplia experiencia en el sector. Ofrecemos soluciones innovadoras y personalizadas que se ajustan 
+                        a las necesidades específicas de cada cliente.
+                    </p>
+                    <h2><b>Misión:</b></h2>
+                    <p>
+                        Ser la empresa líder en consultoría aeronáutica, brindando soluciones innovadoras y personalizadas 
+                        que optimicen las operaciones de nuestros clientes y los impulsen hacia el éxito.
+                    </p>
+                    <h2><b>Visión:</b></h2>
+                    <p>Ser reconocida como la empresa de referencia en el sector aeronáutico por la excelencia en nuestros 
+                        servicios, la experiencia de nuestro equipo y el compromiso con la seguridad y la eficiencia.
+                    </p>
+                    <h2><b>Valores:</b></h2>
+                    <ul>
+                        <li><b>Seguridad:</b> La seguridad es la base de todo lo que hacemos.</li>
+                        <li><b>Excelencia:</b> Nos apasiona brindar un servicio de la más alta calidad.</li>
+                        <li><b>Innovación:</b> Buscamos constantemente nuevas y mejores formas de hacer las cosas.</li>
+                        <li><b>Eficiencia:</b> Optimizamos los recursos para obtener los mejores resultados.</li>
+                        <li><b>Compromiso:</b> Nos involucramos de lleno en cada proyecto para lograr el éxito de nuestros clientes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
             <nav>
                 <a href="index.html">Inicio</a>
-                <a href="mVyV.html">Misión, visión y valores</a>
-                <a href="servicios.html">Servicios Ofrecidos</a>
-                <a href="propuestaComercial.html">Propuesta Comercial</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="productos.html">Productos</a>
                 <a href="contacto.html">Contacto</a>
             </nav>
-        </Header>
-        <div>
-            <p>
-                <h2><b>Misión:</b></h2>
-                <p>
-                    Ser la empresa líder en consultoría aeronáutica, brindando soluciones innovadoras y personalizadas 
-                    que optimicen las operaciones de nuestros clientes y los impulsen hacia el éxito.
-                </p>
-                <h2><b>Visión:</b></h2>
-                <p>Ser reconocida como la empresa de referencia en el sector aeronáutico por la excelencia en nuestros 
-                    servicios, la experiencia de nuestro equipo y el compromiso con la seguridad y la eficiencia.
-                </p>
-                <h2><b>Valores:</b></h2>
-                <ul>
-                    <li><b>Seguridad:</b> La seguridad es la base de todo lo que hacemos.</li>
-                    <li><b>Excelencia:</b> Nos apasiona brindar un servicio de la más alta calidad.</li>
-                    <li><b>Innovación:</b> Buscamos constantemente nuevas y mejores formas de hacer las cosas.</li>
-                    <li><b>Eficiencia:</b> Optimizamos los recursos para obtener los mejores resultados.</li>
-                    <li><b>Compromiso:</b> Nos involucramos de lleno en cada proyecto para lograr el éxito de nuestros clientes.</li>
-                </ul>
-
-
-
-
-
-
-
-            </p>
-        </div>
+        </footer>
     </body>
 </html>
+
+
