@@ -77,7 +77,12 @@ footer {
     border-radius: 0px;
     text-align: center;
     font-size: 0.8em;
-    box-shadow: 10px 0px 5px #D2DAFF;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px 20px 10px 0px;
+    color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -163,7 +168,7 @@ footer {
     .menuLink{
         color: #EEF1FF;
         text-decoration: none;
-        padding: 0px 20px 0px 0px;
+        padding: 10px 20px 10px 0px;
     }
 
     .fila {
